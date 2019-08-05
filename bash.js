@@ -6,11 +6,12 @@ process.stdin.on('data', (data) => {
     const cmd = data.toString().trim(); //removes the newline
 
     if (cmd === 'pwd'){
-        process.stdout.write(process.cwd()); //also can use __dirname
-    } else {
+        const pwd = require('./pwd')
+        pwd()
+    }
+    else {
         process.stdout.write('You typed: ' + cmd);
     }
-    process.stdout.write('\nprompt > ');
 })
 
 

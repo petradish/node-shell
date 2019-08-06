@@ -1,4 +1,3 @@
-module.exports = () => {
-  process.stdout.write(process.cwd()); //also can use __dirname
-  process.stdout.write('\nprompt > ');
+module.exports = (done) => {
+  done(process.cwd()); //also can use __dirname
 }

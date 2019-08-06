@@ -1,0 +1,24 @@
+{
+  "name": "shell",
+  "version": "1.0.0",
+  "description": "test for npm",
+  "main": "bash.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petradish/node-shell.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petradish/node-shell/issues"
+  },
+  "homepage": "https://github.com/petradish/node-shell#readme"
+}
